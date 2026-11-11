@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="description" content="Portfolio of a Graphic Designer &amp; Video Editor - Branding, Social Media, Reels, Motion Graphics, and Print Design.">
+  <title>Shaurya K Roy | Graphic Designer &amp; Video Editor</title>
+
+  <!-- Google Fonts: Epilogue (Headings/Header) & Instrument Sans (Body, Footer, UI) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,400..900;1,400..900&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Sticky Header -->
+  <header>
+    <div class="wrap header-inner">
+      <a class="logo" href="#top" aria-label="Shaurya K Roy - Novara Studios">
+        <span class="logo-name">Shaurya K Roy</span>
+        <span class="logo-sep">•</span>
+        <span class="logo-studio">Novara Studios</span>
+      </a>
+
+      <div class="header-right">
+        <nav id="main-nav" class="nav-menu" aria-label="Main navigation">
+          <a href="#work" class="nav-link">Work</a>
+          <a href="#about" class="nav-link">About</a>
+          <a href="#experience" class="nav-link">Experience</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </nav>
+
+        <div class="header-actions">
+          <button id="fact-btn" class="nav-fact-btn" type="button" aria-label="Show a design fun fact" title="Design Fun Fact">
+            <span class="nav-fact-icon" aria-hidden="true">💡</span>
+            <span class="nav-fact-label">Fun Fact</span>
+          </button>
+          <button id="mobile-menu-btn" class="mobile-menu-btn" type="button" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="main-nav">
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div id="nav-backdrop" class="nav-backdrop" aria-hidden="true"></div>
+  </header>
+
+  <!-- Main Content Container -->
+  <main id="top" class="wrap">
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <!-- Row: text left, face right — face height is bounded to this row only -->
+      <div class="hero-row">
+        <div class="hero-content hero-content-stacked">
+          <div class="hero-badge">
+            <span class="pulse"></span> Open for freelance
+          </div>
+          <h1 class="hero-title"><span class="highlight-red">Bold</span> ideas,<br>cleanly made.</h1>
+          <p class="hero-desc">
+            Brand identities, social content, and motion graphics for small businesses, startups, and creators. Original concepts, fair prices, one-on-one attention.
+          </p>
+          <div class="hero-actions">
+            <a class="btn" href="#work">Explore my work</a>
+            <a class="btn btn-outline" href="#contact">Get in touch</a>
+          </div>
+        </div>
+
+        <!-- Face photo — blends into background, no box -->
+        <div class="hero-face" aria-hidden="true">
+          <img src="assets/images/hero-face.png" alt="" class="hero-face-img">
+        </div>
+      </div><!-- /.hero-row -->
+
+      <!-- Full-Width Showreel -->
+      <div class="showreel-full">
+        <div class="hero-media-glow" aria-hidden="true"></div>
+        <div class="showreel-box showreel-box-large" role="region" aria-label="Showreel video player">
+          <img src="assets/images/video/showreel-cover.jpg" alt="Shaurya K Roy Showreel Thumbnail" class="vid-poster">
+          <video src="assets/video/showreel.mp4" loop playsinline preload="metadata" hidden></video>
+        </div>
+        <div class="showreel-caption-bar">
+          <span class="showreel-caption-title">Featured Showreel</span>
+          <span class="showreel-caption-sub">Motion Design &bull; Video Editing</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Work Showcase Section -->
+    <section id="work" class="work-section">
+      <div class="section-head">
+        <h2>Selected Work</h2>
+        <!-- Jump-to-section buttons -->
+        <div class="work-jump-nav" role="group" aria-label="Jump to work category">
+          <a class="chip chip-jump" href="#work-branding">Branding</a>
+          <a class="chip chip-jump" href="#work-video">Video &amp; Reels</a>
+          <a class="chip chip-jump" href="#work-social">Social Media</a>
+          <a class="chip chip-jump" href="#work-print">Print</a>
+        </div>
+      </div>
+
+      <!-- ═══════════════════ BRAND IDENTITY ═══════════════════ -->
+      <div class="work-cat-section" id="work-branding">
+        <div class="work-cat-head">
+          <div class="work-cat-sticky">
+            <h3 class="work-cat-title">Brand Identity</h3>
+            <p class="work-cat-desc">Complete brand kits, from logo to colour and type.</p>
+          </div>
+        </div>
+        <div class="work-cat-body">
+          <div class="grid">
+
+            <!-- ================= BRANDING PROJECT 1 ================= -->
+            <!-- Add more brand sheet images by duplicating a .brand-sheet-item block below -->
+            <!-- Replace assets/images/branding/brand1-logo.jpg with your brand sheet -->
+            <article class="card wide case" data-cat="branding">
+              <h3>Shree Krishna Fashion</h3>
+              <p>A family fashion showroom. Delivered logo systems, colour and typography systems, packaging designs and visiting card.</p>
+              <div class="case-scroll-wrapper brand-sheet-wrapper">
+                <div class="case-scroll brand-sheet-scroll">
+                  <div class="case-item brand-sheet-item">
+                    <img src="assets/images/branding/brand1-logo.jpg" alt="Aura Studio Brand Identity Sheet — Logo, Colour &amp; Typography System">
+                  </div>
+                </div>
+                <!-- Scroll hint pill -->
+                <span class="case-scroll-pill" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><polyline points="19 12 12 19 5 12"/></svg>
+                  scroll
+                </span>
+              </div>
+
+            </article>
+
+            <!-- ================= BRANDING PROJECT 2 ================= -->
+            <!-- Add more brand sheet images by duplicating a .brand-sheet-item block below -->
+            <!-- Replace assets/images/branding/brand2-logo.jpg with your brand sheet -->
+            <article class="card wide case" data-cat="branding">
+              <h3>Kinetix Apparel</h3>
+              <p>Modern streetwear brand identity kit with packaging concepts and social launch templates.</p>
+              <div class="case-scroll-wrapper brand-sheet-wrapper">
+                <div class="case-scroll brand-sheet-scroll">
+                  <!-- Add more .brand-sheet-item blocks here to extend the scroll -->
+                  <div class="brand-sheet-item">
+                    <img src="assets/images/branding/brand2-logo.jpg" alt="Kinetix Apparel Brand Identity Sheet">
+                  </div>
+                </div>
+                <span class="case-scroll-pill" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><polyline points="19 12 12 19 5 12"/></svg>
+                  scroll
+                </span>
+              </div>
+
+            </article>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- ═══════════════════ VIDEO & REELS ═══════════════════ -->
+      <div class="work-cat-section" id="work-video">
+        <div class="work-cat-head">
+          <div class="work-cat-sticky">
+            <h3 class="work-cat-title">Motion &amp; Video</h3>
+            <p class="work-cat-desc">Short-form edits built for reels and social platforms.</p>
+          </div>
+        </div>
+        <div class="work-cat-body">
+          <div class="grid">
+
+            <!-- ================= VIDEO: REEL 1 (9:16 VERTICAL) ================= -->
+            <!-- Replace assets/video/reel1.mp4 and assets/images/video/reel1-cover.jpg -->
+            <article class="card vid" data-cat="video">
+              <img src="assets/images/video/reel1-cover.jpg" alt="Reel 1 Poster" class="vid-poster">
+              <video src="assets/video/reel1.mp4" loop playsinline preload="metadata" hidden></video>
+              <button class="play" type="button" aria-label="Play Reel 1"></button>
+            </article>
+
+            <!-- ================= VIDEO: PODCAST REEL (9:16 VERTICAL) ================= -->
+            <!-- Replace assets/video/podcast-reel.mp4 and assets/images/video/podcast-reel-cover.jpg -->
+            <article class="card vid" data-cat="video">
+              <img src="assets/images/video/podcast-reel-cover.jpg" alt="Podcast Reel Poster" class="vid-poster">
+              <video src="assets/video/podcast-reel.mp4" loop playsinline preload="metadata" hidden></video>
+              <button class="play" type="button" aria-label="Play Podcast Reel"></button>
+            </article>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- ═══════════════════ SOCIAL MEDIA ═══════════════════ -->
+      <div class="work-cat-section" id="work-social">
+        <div class="work-cat-head">
+          <div class="work-cat-sticky">
+            <h3 class="work-cat-title">Social Media</h3>
+            <p class="work-cat-desc">Carousels and posts made to stop the scroll.</p>
+          </div>
+        </div>
+        <div class="work-cat-body">
+          <div class="grid">
+
+            <!-- ================= SOCIAL: POST 1 (16:9) ================= -->
+            <!-- Replace assets/images/social/post1.jpg -->
+            <article class="card social-16-9" data-cat="social">
+              <img src="assets/images/social/post1.jpg" alt="Social Post 1">
+            </article>
+
+            <!-- ================= SOCIAL: POST 2 (16:9) ================= -->
+            <!-- Replace assets/images/social/post2.jpg -->
+            <article class="card social-16-9" data-cat="social">
+              <img src="assets/images/social/post2.jpg" alt="Social Post 2">
+            </article>
+
+            <!-- ================= SOCIAL: POST 3 (16:9) ================= -->
+            <!-- Replace assets/images/social/post3.jpg -->
+            <article class="card social-16-9" data-cat="social">
+              <img src="assets/images/social/post3.jpg" alt="Social Post 3">
+            </article>
+
+            <!-- ================= SOCIAL: POST 4 (16:9) ================= -->
+            <!-- Replace assets/images/social/post4.jpg -->
+            <article class="card social-16-9" data-cat="social">
+              <img src="assets/images/social/post4.jpg" alt="Social Post 4">
+            </article>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- ═══════════════════ PRINT ═══════════════════ -->
+      <div class="work-cat-section" id="work-print">
+        <div class="work-cat-head">
+          <div class="work-cat-sticky">
+            <h3 class="work-cat-title">Print</h3>
+            <p class="work-cat-desc">Posters and business cards that leave an impression.</p>
+          </div>
+        </div>
+        <div class="work-cat-body">
+          <div class="grid grid-print">
+
+            <!-- ================= PRINT: MOCKUP 1 (4:3 LANDSCAPE) ================= -->
+            <!-- Replace assets/images/print/poster1.jpg -->
+            <article class="card print-card" data-cat="print">
+              <img src="assets/images/print/poster1.jpg" alt="Print Mockup 1">
+            </article>
+
+            <!-- ================= PRINT: MOCKUP 2 (4:3 LANDSCAPE) ================= -->
+            <!-- Replace assets/images/print/poster2.jpg -->
+            <article class="card print-card" data-cat="print">
+              <img src="assets/images/print/poster2.jpg" alt="Print Mockup 2">
+            </article>
+
+            <!-- ================= PRINT: MOCKUP 3 (4:3 LANDSCAPE) ================= -->
+            <!-- Replace assets/images/print/business-card-mockup.jpg -->
+            <article class="card print-card" data-cat="print">
+              <img src="assets/images/print/business-card-mockup.jpg" alt="Print Mockup 3">
+            </article>
+
+            <!-- ================= PRINT: MOCKUP 4 (4:3 LANDSCAPE) ================= -->
+            <!-- Replace assets/images/print/business-card-mockup-2.jpg -->
+            <article class="card print-card" data-cat="print">
+              <img src="assets/images/print/business-card-mockup-2.jpg" alt="Print Mockup 4">
+            </article>
+
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+      <div class="section-head">
+        <h2>About Me</h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-bio">
+          <p>
+            My name is Shaurya K Roy and I am a multi-disciplinary graphic designer and video editor crafting brand identities, social campaigns, and engaging motion content.
+          </p>
+          <p>
+            Whether it's creating engaging social posts, custom scale artwork, animating captions, or crafting dynamic video edits, I blend design principles with modern content strategy.
+          </p>
+
+          <!-- Highlights / Stats -->
+          <div class="experience-stats">
+            <div class="stat-item">
+              <h5>1+</h5>
+              <p>Years of Experience</p>
+            </div>
+            <div class="stat-item">
+              <h5>25+</h5>
+              <p>Projects Delivered</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-skills">
+          <h3 class="tools-title">Tools &amp; Software</h3>
+          <ul class="tools-list">
+            <li>Photoshop</li>
+            <li>Illustrator</li>
+            <li>Premiere Pro</li>
+            <li>After Effects</li>
+            <li>Canva</li>
+            <li>Figma</li>
+          </ul>
+
+          <h3 class="tools-title" style="margin-top: 32px;">Core Services</h3>
+          <ul class="services-list">
+            <li>Brand Identities and Colour Systems</li>
+            <li>Short-Form Reels</li>
+            <li>Motion Graphics &amp; Video Editing</li>
+            <li>Social Media Carousels and Posts</li>
+            <li>Business Cards and Posters</li>
+            <li>Custom Orders? lets talk</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Journey Section (replaces Work Experience) -->
+    <section
+      id="experience"
+      class="journey-section"
+      aria-roledescription="carousel"
+      aria-label="My journey"
+    >
+      <!-- Heading lives inside the normal page container -->
+      <div class="wrap journey-heading">
+        <span class="journey-eyebrow">a short story on me</span>
+        <h2>My journey so far</h2>
+      </div>
+
+      <!-- Full-bleed frame wrapper — breaks out of .wrap -->
+      <div class="journey-bleed">
+
+        <!-- Prev / Next arrow buttons -->
+        <button class="journey-arrow journey-arrow--prev" id="jny-prev" aria-label="Previous chapter" hidden>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#15131A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="15 18 9 12 15 6"/></svg>
+        </button>
+        <button class="journey-arrow journey-arrow--next" id="jny-next" aria-label="Next chapter">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#15131A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg>
+        </button>
+
+        <!-- The clickable / keyboard frame -->
+        <button
+          class="journey-frame"
+          id="jny-frame"
+          aria-label="Continue the journey. Click the right half to go forward, the left half to go back."
+        >
+          <!-- Panning track -->
+          <div class="journey-track" id="jny-track" aria-hidden="true">
+            <img
+              src="assets/journey-strip.jpg"
+              alt="An illustrated trail with seven chapters of my design journey, from my first Discord commissions in December 2025 to the next chapter."
+              width="3087"
+              height="189"
+              loading="lazy"
+              decoding="async"
+              class="journey-strip-img"
+              id="jny-img"
+            >
+            <!-- Fallback shown when image is missing -->
+            <div class="journey-fallback" aria-hidden="true">Journey image goes here</div>
+          </div>
+
+          <!-- Hint pill -->
+          <div class="journey-hint" id="jny-hint" aria-hidden="true">Click anywhere to keep walking →</div>
+        </button>
+
+        <!-- Pager dots -->
+        <div class="journey-dots" id="jny-dots" role="tablist" aria-label="Journey chapters"></div>
+
+      </div><!-- /.journey-bleed -->
+
+      <!-- Live region for screen-reader announcements -->
+      <div id="jny-live" aria-live="polite" aria-atomic="true" class="sr-only"></div>
+
+      <!-- Visually hidden transcript -->
+      <div class="sr-only journey-transcript">
+        <ol>
+          <li><strong>December 2025, Starting from zero:</strong> I started graphic design as a complete beginner, kept learning, and took whatever projects I could get as a starter. Discord servers gave me my first projects. The clients were unprofessional, demanding high-quality work for low pay, and some didn't even pay after delivery and ghosted me.</li>
+          <li><strong>January 2026, First portfolio, first paychecks:</strong> I started making my first-ever portfolio and cold-mailing companies for possible commissions. I landed a few commissions and got paid for them. I also made my first-ever brand identity in these months.</li>
+          <li><strong>February 2026, My first 'job':</strong> I met Generation Uprising through a Discord server and began designing social media carousels for their Instagram.</li>
+          <li><strong>March 2026, A project that mattered:</strong> My first real project that mattered. I made a brand identity, basic motion graphics, business cards and basic packaging design for a family business.</li>
+          <li><strong>March to August 2026, Learning, always:</strong> I kept learning more and more about this field, kept doing commissions, and kept working for small brands.</li>
+          <li><strong>September 2026, Simira Diagnostics (current):</strong> I started searching for proper jobs online and met Simira Diagnostics, a diagnostic lab that's also dipping its toes into social media. I joined their marketing wing as a video editor.</li>
+          <li><strong>The next chapter:</strong> I'm still eager to learn and advance in this field. I don't know what's planned for me in the future, and that thought both scares and amazes me.</li>
+        </ol>
+      </div>
+
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+      <div class="contact-box">
+        <h2>Let's build something exceptional together.</h2>
+        <p>Available for freelance commissions, ongoing content contracts, and creative collaborations.</p>
+        <a class="contact-email" href="https://mail.google.com/mail/?view=cm&to=novara.studio26@gmail.com" target="_blank" rel="noopener">novara.studio26@gmail.com</a>
+        
+        <div class="social-links">
+          <a class="btn" href="https://www.instagram.com/novara.studios_/" target="_blank" rel="noopener">
+            Follow on Instagram
+          </a>
+          <a class="btn btn-secondary btn-whatsapp" href="https://wa.me/918692902871" target="_blank" rel="noopener">
+            Chat on WhatsApp
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="wrap footer-inner">
+      <div>&copy; <span id="year">2026</span> Shaurya K Roy • Novara Studios.</div>
+      <a class="back-to-top" href="#top">Back to top &uarr;</a>
+    </div>
+  </footer>
+
+  <!-- Fun Fact popup -->
+  <div id="fact-popup" class="fact-popup" role="dialog" aria-modal="true" aria-labelledby="fact-label" hidden>
+    <div class="fact-popup-inner">
+      <span class="fact-eyebrow" id="fact-label">Design Fun Fact</span>
+      <p class="fact-text" id="fact-text"></p>
+      <div class="fact-actions">
+        <button class="fact-next btn" id="fact-next" type="button">Another one →</button>
+        <button class="fact-close btn btn-outline" id="fact-close" type="button">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main JavaScript File -->
+  <script src="js/main.js"></script>
+  <script>
+    // Keep copyright year current
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
